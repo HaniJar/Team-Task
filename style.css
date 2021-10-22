@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.navbar {
+    background-color:black;
+    overflow: hidden;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+}
+.navbar a:hover {
+    background-color: inherit;
+    color:orange;
+}
+
+.heading {
+    padding: 50px;
+    background-color: orange;
+    color:black;
+    margin: 10px;
+    font-size: 30px;
+    border: 10px solid black;
+}
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
